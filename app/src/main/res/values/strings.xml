@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">成绩宝</string>
+    <string name="message1">请输入相关信息</string>
+    <string name="chengji">成绩</string>
+    <string name="xuefen">学分</string>
+    <string name="km1">科目 1</string>
+    <string name="km2">科目 2</string>
+    <string name="km3">科目 3</string>
+    <string name="km4">科目 4</string>
+    <string name="button1">    一  键  分  析    </string>
+    <string name="message2">成 绩 评 估</string>
+    <string name="PJchengji">平均成绩 ：</string>
+    <string name="zongJiDian">总绩点:</string>
+    <string name="zongHePingJi">综合评级</string>
+    <string name="wenDingXing">稳定性</string>
+    <string name="绩点">绩点</string>
+    <string name="生成专属报告">生成专属报告</string>
+    <string name="xuefenX">学分:</string>
+    <string name="个人报告">个人报告</string>
+    <string name="a">4.0</string>
+    <string name="优秀">你的成绩总体表现为优秀，加油，请再接再厉！！</string>
+    <string name="良好">你的成绩总体比较良好，加油！请再接再厉！！</string>
+    <string name="一般">你的成绩中规中矩，加油！继续突破自己！！</string>
+    <string name="较差">注意！你的成绩比较危险，加油，全力追赶！</string>
+    <string name="差">你的成绩有很大的进步空间，不要灰心，相信自己，不破不立！</string>
+    <string name="稳定性yx">根据计算，你的成绩的稳定性为优秀，这意味着你的各科之间水平比较平均，不需要担心偏科的问题。你可以寻找自己的强项，在当前基础上突破瓶颈，更上一层楼！</string>
+    <string name="稳定性良好">根据计算，你的成绩的稳定性为良好，这意味这你看起来并没有什么明显的短板，暂时并不需要担心偏科问题。你可以寻找自己的强项进行突破，或者对自己相对低于平均水平的的科目进行提高，让自己更进一步！</string>
+    <string name="稳定性较差">根据计算，你成绩的稳定性相对较差，这意味着你身上出现了短板。你需要关系一下自己的偏科问题，在保证强项的同时，尽快针对自己的短板进行补弱，避免偏科越来越严重的情况。</string>
+    <string name="稳定性差">根据计算，你的成绩稳定性出现了很大的问题，你的短板相对来说已经十分明显，相信你也早已注意到这个问题。你需要尽快针对自己的弱项制定补弱方案，解决自己的偏科问题。</string>
+    <string name="成绩优异">建议：你的成绩表现优异，请继续努力。</string>
+    <string name="还不错">建议：你这一科表现还不错，请继续努力实现突破！</string>
+    <string name="成绩一般">建议：你这科成绩并不突出，请继续努力。</string>
+    <string name="成绩较差">建议：你已经处于挂科边缘了！！赶紧行动起来！！</string>
+    <string name="挂科">建议：挂科不可怕，赶紧行动起来，补足短板！</string>
+</resources>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFED4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFA7A">
+
+        <TextView
+            android:id="@+id/head_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/message1"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFED4">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="25sp">
+            <LinearLayout
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:background="@drawable/background1"
+                android:orientation="vertical"
+                android:layout_centerInParent="true">
+
+                <EditText
+                    android:id="@+id/kkm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                    android:hint="@string/km1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:hint="@string/chengji"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:id="@+id/kchengji1"/>
+                    <EditText
+                        android:inputType="numberDecimal"
+                        android:hint="@string/xuefen"
+                        android:id="@+id/kxuefen1"
+                        android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+            <LinearLayout
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:background="@drawable/background1"
+                android:layout_centerInParent="true">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                    android:hint="@string/km2"
+                    android:id="@+id/kkemu2"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:hint="@string/chengji"
+                        android:inputType="numberDecimal"
+                        android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:id="@+id/kchengji2"/>
+                    <EditText
+                        android:inputType="numberDecimal"
+                        android:hint="@string/xuefen"
+                        android:id="@+id/kxuefen2"
+                        android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            </RelativeLayout>
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="110dp">
+            <LinearLayout
+                android:layout_width="390dp"
+                android:background="@drawable/background1"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_centerInParent="true">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                    android:hint="@string/km3"
+                    android:id="@+id/kkemu3"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:inputType="numberDecimal"
+                        android:hint="@string/chengji"
+                        android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:id="@+id/kchengji3"/>
+                    <EditText
+                        android:inputType="numberDecimal
+"
+                        android:hint="@string/xuefen"
+                        android:id="@+id/kxuefen3"
+                        android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+           </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+            <LinearLayout
+                android:layout_width="390dp"
+                android:background="@drawable/background1"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_centerInParent="true">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                    android:hint="@string/km4"
+                    android:inputType=""
+                    android:id="@+id/kkemu4"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:hint="@string/chengji"
+                        android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                        android:layout_width="0dp"
+                        android:inputType="numberDecimal"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:id="@+id/kchengji4"/>
+                    <EditText
+                        android:inputType="numberDecimal"
+                        android:hint="@string/xuefen"
+                        android:id="@+id/kxuefen4"
+                        android:drawableStart="@drawable/ic_baseline_amp_stories_24"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <Button
+                    android:id="@+id/qqq"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/background2"
+                    android:drawableStart="@drawable/ic_baseline_pageview_25"
+                    android:hint="@string/button1"
+                    android:textSize="25sp"
+                    android:padding="5dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
